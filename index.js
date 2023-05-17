@@ -7,6 +7,7 @@ const isAnagram = require('./solutions/valid_anagram');
 const search = require('./solutions/binary_search');
 const floodFill = require('./solutions/flood_fill');
 const canConstruct = require('./solutions/ransom_note');
+const climbStairs = require('./solutions/climbing_stairs');
 
 // console.log(twoSum([2, 7, 11, 15], 9));
 // console.log(twoSum([3, 2, 4], 6));
@@ -37,6 +38,9 @@ const canConstruct = require('./solutions/ransom_note');
 // console.log(floodFill(image1, 1, 1, 2));
 // console.log(floodFill(image2, 0, 0, 0));
 
-var ransomNote = "aac"
-var magazine = "acaa";
-console.log(canConstruct(ransomNote, magazine));
+// var ransomNote = "aac"
+// var magazine = "acaa";
+// console.log(canConstruct(ransomNote, magazine));
+
+console.log(climbStairs(5));
+
