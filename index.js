@@ -9,6 +9,7 @@ const floodFill = require('./solutions/flood_fill');
 const canConstruct = require('./solutions/ransom_note');
 const climbStairs = require('./solutions/climbing_stairs');
 const longestPalindrome = require('./solutions/longest_palindrome');
+const majorityElement = require('./solutions/majority_element');
 
 // console.log(twoSum([2, 7, 11, 15], 9));
 // console.log(twoSum([3, 2, 4], 6));
@@ -45,7 +46,11 @@ const longestPalindrome = require('./solutions/longest_palindrome');
 
 // console.log(climbStairs(5));
 
-console.log(longestPalindrome('abccccdd'));
-console.log(longestPalindrome('a'));
-console.log(longestPalindrome('abcdadcb'));
+// console.log(longestPalindrome('abccccdd'));
+// console.log(longestPalindrome('a'));
+// console.log(longestPalindrome('abcdadcb'));
+
+console.log(majorityElement([3,2,3]));
+console.log(majorityElement([2,2,1,1,2,2,1]));
+
 
