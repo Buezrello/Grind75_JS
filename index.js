@@ -12,6 +12,7 @@ const longestPalindrome = require('./solutions/longest_palindrome');
 const majorityElement = require('./solutions/majority_element');
 const addBinary = require('./solutions/add_binary');
 const {TreeNode, diameterOfBinaryTree} = require('./solutions/diameter_of_binary_tree');
+var containsDuplicate = require('./solutions/contains_duplicate');
 
 // console.log(twoSum([2, 7, 11, 15], 9));
 // console.log(twoSum([3, 2, 4], 6));
@@ -60,14 +61,18 @@ const {TreeNode, diameterOfBinaryTree} = require('./solutions/diameter_of_binary
 // console.log(addBinary('0', '0'));
 
 
-let root = new TreeNode(1);
-root.left = new TreeNode(2);
-root.left.left = new TreeNode(4);
-root.left.right = new TreeNode(5);
-root.right = new TreeNode(3);
+// let root = new TreeNode(1);
+// root.left = new TreeNode(2);
+// root.left.left = new TreeNode(4);
+// root.left.right = new TreeNode(5);
+// root.right = new TreeNode(3);
 
-console.log(diameterOfBinaryTree(root));
+// console.log(diameterOfBinaryTree(root));
 
-root = new TreeNode(1);
-root.left = new TreeNode(2);
-console.log(diameterOfBinaryTree(root));
+// root = new TreeNode(1);
+// root.left = new TreeNode(2);
+// console.log(diameterOfBinaryTree(root));
+
+console.log(containsDuplicate([1,2,3,1]));
+console.log(containsDuplicate([1,2,3,4]));
+console.log(containsDuplicate([1,1,1,3,3,4,3,2,4,2]));
