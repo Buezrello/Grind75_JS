@@ -14,6 +14,7 @@ const addBinary = require('./solutions/add_binary');
 const {TreeNode, diameterOfBinaryTree} = require('./solutions/diameter_of_binary_tree');
 var containsDuplicate = require('./solutions/contains_duplicate');
 var maxSubArray = require('./solutions/maximum_subarray');
+var insert = require('./solutions/insert_interval');
 
 // console.log(twoSum([2, 7, 11, 15], 9));
 // console.log(twoSum([3, 2, 4], 6));
@@ -78,7 +79,10 @@ var maxSubArray = require('./solutions/maximum_subarray');
 // console.log(containsDuplicate([1,2,3,4]));
 // console.log(containsDuplicate([1,1,1,3,3,4,3,2,4,2]));
 
-console.log(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]));
-console.log(maxSubArray([1]));
-console.log(maxSubArray([5,4,-1,7,8]));
-console.log(maxSubArray([-1]));
+// console.log(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]));
+// console.log(maxSubArray([1]));
+// console.log(maxSubArray([5,4,-1,7,8]));
+// console.log(maxSubArray([-1]));
+
+console.log(insert([[1, 3], [6, 9]], [2, 5]));
+console.log(insert([[1, 2], [3, 5], [6, 7], [8, 10], [12, 16]], [4, 8]));
